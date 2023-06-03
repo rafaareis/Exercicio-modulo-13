@@ -1,0 +1,56 @@
+:root {
+    --instagram1: #7f37c9;
+    --instagram2: #ff2992;
+    --instagram3: #ff9807;
+    --spotify1: #1db954;
+    --spotify2: #191414;
+    --cor1: #fff;
+}
+
+.band-header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0;
+}
+
+.spotify-div,
+.instagram-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.instagram-div {
+    width: 200px;
+    background: linear-gradient(var(--instagram1), var(--instagram2), var(--instagram3));
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.spotify-div {
+    width: 200px;
+    background-color: var(--spotify1);
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+#instagram {
+    text-decoration: none;
+    color: var(--cor1);
+}
+
+#spotify {
+    text-decoration: none;
+    color: var(--spotify2);
+}
+
+#instagram i {
+    color: var(--cor1);
+}
+
+#spotify i {
+    color: var(--spotify2);
+}
+

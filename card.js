@@ -4,7 +4,7 @@ const cardObj = [
         artist: 'Spiritbox',
         period: '(2017 -)',
         genre: 'Metalcore',
-        country: 'Canada',
+        country: 'country/canada.png',
         img1: 'https://www.tenhomaisdiscosqueamigos.com/wp-content/uploads/2023/04/spiritbox-divulgacao.jpg',
         img2: 'https://www.notch.one/wp-content/uploads/2023/05/Spiritbox-10.jpg',
         img3: 'https://photos.bandsintown.com/large/14680655.jpeg',
@@ -17,7 +17,7 @@ const cardObj = [
         id: 2,
         artist: 'Royal Blood',
         period: '(2013 -)',
-        country: 'United Kingdom',
+        country: 'country/united-kingdom.png',
         genre: 'Alternative',
         img1: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPKdK3IsvYF_gWjdTs0EvAbBs8qT3F07aeMw&usqp=CAU',
         img2: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkqLpqNh8FLwgdnIOytoqJC2HjftGi1fQu_w&usqp=CAU',
@@ -31,7 +31,7 @@ const cardObj = [
         id: 3,
         artist: 'Jinjer',
         period: '(2009 -)',
-        country: 'Ukraine',
+        country: 'country/ukraine.png',
         genre: 'Progressive Metal',
         img1: 'https://lastfm.freetls.fastly.net/i/u/ar0/c4abea887a2347fbc25f35ab73cb1b00.jpg',
         img2: 'https://www.wikimetal.com.br/wp-content/uploads/2022/10/jinjer-@-carioca-club-by-leca-suzuki-01.10.2022-38.jpg',
@@ -45,7 +45,7 @@ const cardObj = [
         id: 4,
         artist: 'Tame Impala',
         period: '(2007 -)',
-        country: 'Australia',
+        country: 'country/australia.png',
         genre: 'Alternative',
         img1: 'https://akamai.sscdn.co/tb/letras-blog/wp-content/uploads/2022/05/fbff11e-Tame-impala-1024x576.jpg',
         img2: 'https://cdn-r2-1.thebrag.com/rs/uploads/2022/10/tame-impala-review.jpg',
@@ -59,7 +59,7 @@ const cardObj = [
         id: 5,
         artist: 'Larkin Poe',
         period: '(2010 -)',
-        country: 'United States',
+        country: 'country/united-states-of-america.png',
         genre: 'Blues',
         img1: 'https://i.scdn.co/image/ab6761610000e5eb45b22863aa39767cdf7513bf',
         img2: 'https://www.leparisien.fr/resizer/MpUL1txc-a2yJdXrDuFfABN-730=/932x582/cloudfront-eu-central-1.images.arcpublishing.com/leparisien/DNKHHLGYURDU7KK6CYJ272BFLM.jpg',
@@ -73,7 +73,7 @@ const cardObj = [
         id: 6,
         artist: 'Blues Pills',
         period: '(2011 -)',
-        country: 'Sweden',
+        country: 'country/sweden.png',
         genre: 'Blues Rock',
         img1: 'https://yt3.googleusercontent.com/53ZLqxz72FEmouCG2aU-OL9_EQ300TBLVbmHGulOanD2ieT8cemei6B3HKVt_2NXeKTf-Q8z=s900-c-k-c0x00ffffff-no-rj',
         img2: 'https://igormiranda.com.br/wp-content/uploads/2022/10/Blues-Pills-Sao-Paulo-2022-06-min-1024x683.jpg',
@@ -87,7 +87,7 @@ const cardObj = [
         id: 7,
         artist: 'Metallica',
         period: '(1981 -)',
-        country: 'United States',
+        country: 'country/united-states-of-america.png',
         genre: 'Metal',
         img1: 'https://www.radiorock.com.br/wp-content/uploads/2023/01/metallica.jpg',
         img2: 'https://www.rollingstone.com/wp-content/uploads/2023/04/metallica-RS-2023-1800.jpg',
@@ -101,7 +101,7 @@ const cardObj = [
         id: 8,
         artist: 'The Warning',
         period: '(2013 -)',
-        country: 'Mexico',
+        country: 'country/mexico.png',
         genre: 'Rock',
         img1: 'https://i.scdn.co/image/ab6761610000e5eb95ef29b3a56a701b8c9fd5c6',
         img2: 'https://i.ytimg.com/vi/k6BvVx3wvTs/maxresdefault.jpg',
@@ -115,7 +115,7 @@ const cardObj = [
         id: 9,
         artist: 'Queens Of the Stone Age',
         period: '(1996 -)',
-        country: 'United States',
+        country: 'country/united-states-of-america.png',
         genre: 'Rock',
         img1: 'https://www.radiorock.com.br/wp-content/uploads/2023/05/queens-of-the-stone-age.jpg',
         img2: 'https://almalondrina.com.br/wp-content/uploads/2020/12/Queens-Of-The-Stone-Age-Azylo-Hotel.jpeg',
@@ -129,7 +129,7 @@ const cardObj = [
         id: 10,
         artist: 'Joe Bonamassa',
         period: '(1989 -)',
-        country: 'United States',
+        country: 'country/united-states-of-america.png',
         genre: 'Blues Rock',
         img1: 'https://i.scdn.co/image/ab6761610000e5ebec33bd8fc7f83b842c5d08a8',
         img2: 'https://guitar.com/wp-content/uploads/2023/02/joe-bonamassa-tales-of-time@2000x1500.jpg',
@@ -143,7 +143,7 @@ const cardObj = [
         id: 11,
         artist: 'Red Hot Chili Peppers',
         period: '(1983 -)',
-        country: 'United States',
+        country: 'country/united-states-of-america.png',
         genre: 'Punk Rock',
         img1: 'https://relix.com/wp-content/uploads/2022/09/Screen-Shot-2022-04-08-at-4.15.27-PM.jpg.webp',
         img2: 'https://i.ds.at/y1WqSQ/rs:fill:493:0/plain/2022/12/06/DD343521-A0A1-4B84-AFA9-8E191EAE617D.jpg',
@@ -157,7 +157,7 @@ const cardObj = [
         id: 12,
         artist: 'Baroness',
         period: '(2003 -)',
-        country: 'United States',
+        country: 'country/united-states-of-america.png',
         genre: 'Progressive',
         img1: 'https://i.scdn.co/image/ab6761610000e5ebc90690b1e0ab1f4b0ff873cb',
         img2: 'https://i0.wp.com/www.popsfera.com.br/wp-content/uploads/2020/12/baroness-band.jpg?resize=800%2C450&ssl=1',
@@ -168,3 +168,32 @@ const cardObj = [
         instagramFollowers: '121.352'
     },
 ]
+
+let cards = cardObj.map(function(card) {
+        return `
+                <div class="col-lg-4 col-md-6 col-sm-8">
+                    <article class="card">
+                        <div class="card-header">
+                            <header>
+                                <div class="band-header">
+                                    <a class="spotify-link" href="${card.spotifyLink}" id="spotify">
+                                        <div class="spotify-div">
+                                            <i class="fa-brands fa-spotify fa-2xl" alt="Ícone do Spotify"></i>
+                                            <h4>${card.spotifyMensalListeners}</h4>
+                                        </div>
+                                    </a>
+                                    <a class="instagram-link" href="${card.instagramLink}" id="instagram">
+                                        <div class="instagram-div">
+                                            <i class="fa-brands fa-instagram fa-2xl" alt="Ícone do Instagram"></i>
+                                            <h4>${card.instagramFollowers}</h4>
+                                        </div>
+                                    </a>  
+                                </div>
+                                </header>
+                            </div>
+                    </article>
+                </div>
+                `;
+});
+
+document.querySelector('.row').innerHTML = cards.join("");
