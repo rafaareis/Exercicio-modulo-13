@@ -54,3 +54,28 @@
     color: var(--spotify2);
 }
 
+#img1,
+#img2,
+#img3 {
+    width: 450px;
+    height: 350px;
+}
+
+#countryIcon{
+    width: 30px;
+}
+
+.title-card-1,
+.title-card-2,
+.title-card-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-card-1 h2,
+.title-card-2 h2,
+.title-card-3 h2 {
+    font-size: 22px;
+    padding-right: 10px;
+}

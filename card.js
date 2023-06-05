@@ -189,11 +189,56 @@ let cards = cardObj.map(function(card) {
                                         </div>
                                     </a>  
                                 </div>
-                                </header>
+                            </header>
+                        </div>
+                        <div class="card">
+                            <div id="carousel-exemplo-${card.id}" class="carousel carousel-fade slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div data-bs-interval="5000" class="carousel-item active">
+                                        <img class="d-block" id="img1" src="${card.img1}" alt="Foto de ${card.artist}" />
+                                        <div class="carousel-caption">
+                                            <div class="title-card-1">
+                                                <h2>${card.artist}</h2>
+                                             <img id="countryIcon" src="${card.country}" alt="Foto de ${card.artist}" />
+                                            </div>   
+                                        </div>
+                                    </div>
+                                    <div data-bs-interval="5000" class="carousel-item">
+                                        <img class="d-block" id="img2" src="${card.img2}" alt="Foto de ${card.artist}" />
+                                        <div class="carousel-caption">
+                                            <div class="title-card-2">
+                                                <h2>${card.artist}</h2>
+                                                <img id="countryIcon" src="${card.country}" alt="Foto de ${card.artist}" />
+                                            </div>   
+                                        </div>
+                                    </div>
+                                    <div data-bs-interval="5000" class="carousel-item">
+                                        <img class="d-block" id="img3" src="${card.img3}" alt="Foto de ${card.artist}" />
+                                        <div class="carousel-caption">
+                                            <div class="title-card-3">
+                                                <h2>${card.artist}</h2>
+                                                <img id="countryIcon" src="${card.country}" alt="Foto de ${card.artist}" />
+                                            </div>   
+                                        </div>
+                                    </div>
+                                </div>
+                                <button data-bs-target="#carousel-exemplo-${card.id}" data-bs-slide="prev"  class="carousel-control-prev" type="button">
+                                    <span class="carousel-control-prev-icon"></span>
+                                </button>
+                                <button data-bs-target="#carousel-exemplo-${card.id}" data-bs-slide="next"  class="carousel-control-next" type="button">
+                                    <span class="carousel-control-next-icon"></span>
+                                </button>
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carousel-exemplo-${card.id}" data-bs-slide-to="0" class="active"></button>
+                                    <button type="button" data-bs-target="#carousel-exemplo-${card.id}" data-bs-slide-to="1"></button>
+                                    <button type="button" data-bs-target="#carousel-exemplo-${card.id}" data-bs-slide-to="2"></button>
+                                </div>
                             </div>
+                        </div>
                     </article>
                 </div>
                 `;
 });
 
 document.querySelector('.row').innerHTML = cards.join("");
+
