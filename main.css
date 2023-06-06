@@ -5,13 +5,14 @@
     --spotify1: #1db954;
     --spotify2: #191414;
     --cor1: #fff;
+    --hover: gold;
 }
 
 .band-header {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 0;
+    display: grid;
+    grid-template-columns: 49.75% 49.75%;
+    max-width: 402px;
+    width: 100%;
 }
 
 .spotify-div,
@@ -22,14 +23,16 @@
 }
 
 .instagram-div {
-    width: 200px;
+    max-width: 200px;
+    width: 100%;
     background: linear-gradient(var(--instagram1), var(--instagram2), var(--instagram3));
     display: flex;
     justify-content: space-evenly;
 }
 
 .spotify-div {
-    width: 200px;
+    max-width: 200px;
+    width: 100%;
     background-color: var(--spotify1);
     display: flex;
     justify-content: space-evenly;
@@ -50,15 +53,24 @@
     color: var(--cor1);
 }
 
+
 #spotify i {
     color: var(--spotify2);
+}
+
+#instagram:hover,
+#spotify:hover,
+#instagram i:hover,
+#spotify i:hover,
+.about a:hover {
+    color: var(--hover);
 }
 
 #img1,
 #img2,
 #img3 {
-    width: 450px;
-    height: 350px;
+    width: 400px;
+    height: 400px;
 }
 
 #countryIcon{
@@ -70,7 +82,7 @@
 .title-card-3 {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: start;
 }
 
 .title-card-1 h2,
@@ -78,4 +90,24 @@
 .title-card-3 h2 {
     font-size: 22px;
     padding-right: 10px;
+}
+
+.subtitle-card-1 h3,
+.subtitle-card-2 h3,
+.subtitle-card-3 h3 {
+    font-size: 16px;
+}
+
+#card {
+    padding-bottom: 30px;
+}
+
+
+.about {
+    height: 300px;
+    margin: 10px;
+}
+
+footer{
+    text-align: center;
 }
